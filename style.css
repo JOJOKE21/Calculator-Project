@@ -60,7 +60,17 @@
     background: none;
 }
 
-
+.button5{
+    background-color:transparent;
+    float: left;
+    color: limegreen;
+    cursor: pointer;
+    width: 17.5px; height: 17.5px;
+    font-size: 17.5px;
+    padding: 0;
+    border: none;
+    background: none;
+}
 
 
 
@@ -75,6 +85,17 @@ border-style: solid;
 border-color: gray;
     
   
+}
+
+.box5{
+    background-color: black;
+    width: 22.5px; height: 22.5px;
+    margin: 5px;
+float: left;
+border-radius: 50%;
+color: limegreen;
+border-style: solid;
+border-color: gray;
 }
 
 .box2{

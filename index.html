@@ -11,14 +11,18 @@
 
     
     <div id="Container" class="topbox">
-    <input type="text" id="display" name="display" readonly>
+    <input type="text" id="display" name="display">
+   <button type="button" id="delete" name="delete" onclick= "backSpace()"></button>
     
     <div class="box1">
         <button class="button" value = "C" onclick = "clearScreen()">C</button>
     </div>
-    <div class="box2">
-        <button class="button2" value= "()" onclick = "display('()')">()</button>
+    <div class="box5">
+        <button class="button5" value= "(" onclick = "display('(')">(</button>
     </div>
+<div class="box5">
+    <button class="button5" value= ")" onclick = "display(')')">)</button>
+</div>
     <div class="box2">
         <button class="button2" value="%" onclick = "display('%')">%</button>
     </div>
@@ -62,7 +66,7 @@
         <button class="button2" value="+" onclick="display('+')">+</button>
     </div>
     <div class="box3">
-        <button class="button4" value="+/-" onclick="display('+/-')">+/-</button>
+        <button class="button4" name="opp" value="+/-" onclick="opposite()">+/-</button>
     </div>
     <div class="box3">
         <button class="button3" value="0" onclick="display('0')">0</button>
